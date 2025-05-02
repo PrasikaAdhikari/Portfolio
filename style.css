@@ -1,6 +1,6 @@
-.wrapper {
+/* .wrapper {
   background: ;
-}
+} */
 .darkmode {
   display: none;
 }
@@ -20,4 +20,23 @@ header .container {
 header .container .menu {
   display: flex;
   gap: 15px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  gap: 50%;
+  margin-top: 10%;
+}
+.left-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+.right-flex {
+  display: flex;
+  flex-direction: ;
 }
