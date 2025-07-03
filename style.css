@@ -8,7 +8,7 @@
   --dark-header-bg: #0a1a4a;
   --dark-text-color: #ffffff;
   --dark-border-color: #ffffff;
-  --shadow: 4px -2px 40px 9px rgba(128, 128, 128, 0.464);
+  --shadow: 4px -2px 40px 9px rgba(128, 128, 128, 0.997);
 }
 
 * {
@@ -458,6 +458,8 @@ button:hover {
     height: auto;
   }
   .copyright {
+    padding: 40px;
+    top: 80px;
   }
 }
 
