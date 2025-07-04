@@ -8,7 +8,7 @@
   --dark-header-bg: #0a1a4a;
   --dark-text-color: #ffffff;
   --dark-border-color: #ffffff;
-  --shadow: 4px -2px 40px 9px rgba(128, 128, 128, 0.997);
+  --shadow: 4px -2px 40px 9px rgba(128, 128, 128, 0.464);
 }
 
 * {
@@ -149,6 +149,7 @@ header .container {
   flex-direction: column;
   gap: 10px;
   padding: 20px;
+  font-size: 1.4rem;
 }
 
 .right img {
@@ -402,8 +403,7 @@ button:hover {
   padding: 20px;
   text-align: center;
 }
-
-.fcontainer {
+h .fcontainer {
   width: 90%;
   margin: 0 auto;
 }
